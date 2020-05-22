@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Stre",
+				"StreamFieldPanel\tclass"
+			],
+			[
+				"field",
+				"field_block\tmodule"
+			],
+			[
+				"Rich",
+				"RichTextBlock"
+			],
+			[
+				"RichText",
+				"RichTextBlock\tclass"
+			],
+			[
+				"R",
+				"RichTextBlock"
+			],
+			[
+				"Sr",
+				"StreamBlock\tclass"
+			],
+			[
+				"st",
+				"stream_block\tmodule"
+			],
+			[
+				"F",
+				"FieldBlock\tclass"
+			],
+			[
+				"Str",
+				"StreamFieldPanel\tclass"
+			],
+			[
+				"Ima",
+				"ImageChooserPanel"
+			],
+			[
+				"Pa",
+				"PageChooserPanel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wagtail_tuto/blog/templates/blog/base.html",
+			"settings":
+			{
+				"buffer_size": 3126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wagtail_tuto/blog/templates/blog/components/sidebar.html",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/J/wagtail/development/wagtail_blog",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/components",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templatetags",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/templates",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/wagtailmd"
+	],
+	"file_history":
+	[
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/blocks.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/comments/disqus.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/components/sidebar.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/models.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blog_page.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/base.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/text_blocks.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/migrations/0001_initial.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/post_page.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/form_page_landing.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/markdown.html",
+		"/J/wagtail/development/wagtail_blog/secrets.json",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/landing_page.html",
+		"/J/wagtail/development/wagtail_blog/config/settings/base.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/models.py.orig",
+		"/J/wagtail/development/myblog/myblog_proj/settings/base.py",
+		"/J/wagtail/development/myblog/myblog_proj/settings/dev.py",
+		"/J/wagtail/development/myblog/.gitignore",
+		"/J/wagtail/development/myblog/myblog_proj/urls.py",
+		"/J/wagtail/development/myblog/streams/views.py",
+		"/J/wagtail/development/myblog/secrets.json",
+		"/J/wagtail/development/blog/blog/templates/stream/text_blocks.html",
+		"/J/wagtail/development/blog/home/templates/home/post_page.html",
+		"/J/wagtail/development/wagtail-blog/.gitignore",
+		"/J/wagtail/development/wagtail_blog/.gitignore",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/static/blog/js/bootstrap.bundle.min.js",
+		"/J/wagtail/development/wagtail_blog/config/urls.py",
+		"/J/wagtail/development/wagtail_blog/config/settings/dev.py",
+		"/C/Users/kevin/Pictures/bronx.png",
+		"/J/wagtail/development/wagtail-blog/config/settings/dev.py",
+		"/J/wagtail/development/wagtail-blog/config/urls.py",
+		"/J/wagtail/development/wagtail-blog/config/settings/base.py",
+		"/J/wagtail/development/wagtail-blog/secrets.json",
+		"/D/coderedcms/development/coderedblog/blog/settings/prod.py",
+		"/D/coderedcms/development/coderedblog/blog/settings/dev.py",
+		"/D/coderedcms/development/coderedblog/blog/settings/base.py",
+		"/D/coderedcms/development/coderedblog/blog/urls.py",
+		"/D/coderedcms/development/coderedblog/secrets.json",
+		"/D/wagtail/development/rocketman/rocketman/templates/base.html",
+		"/D/wagtail/development/rocketman/home/templates/home/home_page.html",
+		"/D/wagtail/development/rocketman/rocketman/settings/base.py",
+		"/D/wagtail/development/rocketman/home/models.py",
+		"/C/Users/kevin/anaconda3/envs/rocketman_env/Lib/site-packages/wagtail/core/models.py",
+		"/C/Users/kevin/anaconda3/envs/rocketman_env/Lib/site-packages/wagtail/core/query.py",
+		"/C/Users/kevin/anaconda3/envs/rocketman_env/Lib/site-packages/django/core/paginator.py",
+		"/D/wagtail/development/rocketman/home/templates/home/home_page.html.orig",
+		"/D/wagtail/development/rocketman/rocketman/urls.py",
+		"/D/wagtail/development/rocketman/rocketman/settings/dev.py",
+		"/D/wagtail/development/rocketman/secrets.json",
+		"/D/Development/everycheese/everycheese/cheeses/views.py",
+		"/D/Development/everycheese/everycheese/cheeses/urls.py",
+		"/D/Development/everycheese/everycheese/templates/cheeses/cheese_list.html",
+		"/D/Development/everycheese/everycheese/templates/cheeses/cheese_detail.html",
+		"/D/Development/everycheese/everycheese/templates/base.html",
+		"/D/Development/everycheese/config/settings/local.py",
+		"/D/Development/everycheese/config/urls.py",
+		"/C/Users/kevin/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/kevin/AppData/Roaming/Sublime Text 3/Packages/Anaconda/anaconda_lib/workers/local_worker.py",
+		"/D/Development/everycheese/everycheese/cheeses/admin.py",
+		"/D/Development/everycheese/everycheese/cheeses/models.py",
+		"/D/Development/everycheese/setup.cfg",
+		"/D/Development/everycheese/config/settings/base.py",
+		"/D/Development/everycheese/everycheese/cheeses/tests/__init__.py",
+		"/D/Development/everycheese/everycheese/cheeses/tests/test_models.py",
+		"/D/Development/everycheese/everycheese/users/models.py",
+		"/D/Development/everycheese/everycheese/users/views.py",
+		"/D/Development/everycheese/everycheese/templates/users/user_detail.html",
+		"/D/Development/everycheese/everycheese/cheeses/apps.py",
+		"/D/Development/everycheese/.gitignore",
+		"/D/Development/everycheese/secrets.json",
+		"/D/Development/hellodjango/templates/index.html",
+		"/D/Development/hellodjango/hellodjango/urls.py",
+		"/D/Development/hellodjango/homepage/views.py",
+		"/D/Development/hellodjango/hellodjango/settings.py",
+		"/C/Users/kevin/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/C/Users/kevin/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme-Darker.sublime-theme"
+	],
+	"find":
+	{
+		"height": 77.0
+	},
+	"find_in_files":
+	{
+		"height": 179.0,
+		"where_history":
+		[
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"disqus_url",
+			"page_url",
+			"|richtext",
+			"richtext",
+			"safe",
+			"markdown",
+			"markdown.html",
+			"markdown",
+			"strip"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wagtail_tuto/blog/templates/blog/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1848,
+								1848
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wagtail_tuto/blog/templates/blog/components/sidebar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 86.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wagtail_blog.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

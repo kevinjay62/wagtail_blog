@@ -13,6 +13,32 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import environ
 import os
 
+import json
+
+# Normally you should not import ANYTHING from Django directly
+# into your settings, but ImproperlyConfigured is an exception.
+from django.core.exceptions import ImproperlyConfigured
+
+with open('secrets.json') as f:
+    secrets = json.loads(f.read())
+
+
+def get_secret(setting, secrets=secrets):
+    '''Get the secret variable or return explicit exception.'''
+    try:
+        return secrets[setting]
+    except KeyError:
+        error_msg = 'Set the {0} environment variable'.format(setting)
+        raise ImproperlyConfigured(error_msg)
+
+
+SECRET_KEY = get_secret('SECRET_KEY')
+DB_NAME = get_secret('DB_NAME')
+DB_HOST = get_secret('DB_HOST')
+DB_PORT = get_secret('DB_PORT')
+DB_USER = get_secret('DB_USER')
+DB_PASSWORD = get_secret('DB_PASSWORD')
+
 BASE_DIR = environ.Path(__file__) - 3
 PROJECT_DIR = BASE_DIR.path('wagtail_tuto')
 
@@ -57,7 +83,8 @@ INSTALLED_APPS = [
 
     'home',
     'blog',
-    'wagtailmd',
+    # 'wagtailmd',
+    'wagtailcodeblock',
 ]
 
 MIDDLEWARE = [
@@ -101,19 +128,24 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
+        'PORT': DB_PORT,
+    }
+
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Chicago'
 
 USE_I18N = True
 
@@ -153,6 +185,6 @@ MEDIA_URL = '/media/'
 
 WAGTAIL_SITE_NAME = "wagtail_tuto"
 
-# Base URL to use when referring to full URLs within the Wagtail admin backend -
+# Base URL to use when referring to full URLs within the Wagtail admin backend
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'

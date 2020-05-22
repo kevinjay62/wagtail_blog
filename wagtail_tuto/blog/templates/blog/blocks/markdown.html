@@ -1,6 +1,6 @@
-{% load wagtailcore_tags wagtailmd%}
+{% load wagtailcore_tags%}
 
-{{ self.md_body|markdown|safe }}
+{{ self.md_body|safe }}
 
 <script>
 $(".markdown .field-content textarea").each(function(index, elem) {
