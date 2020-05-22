@@ -6,3 +6,4 @@ fabfile.py
 .idea/
 .python-version
 static_root/
+secrets.json
