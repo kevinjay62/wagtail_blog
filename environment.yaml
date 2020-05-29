@@ -1,0 +1,67 @@
+name: wagtail_blog_env
+channels:
+  - defaults
+dependencies:
+  - asgiref=3.2.7=py_0
+  - ca-certificates=2020.1.1=0
+  - certifi=2020.4.5.1=py38_0
+  - openssl=1.1.1g=he774522_0
+  - pip=20.0.2=py38_3
+  - python=3.8.3=he1778fa_0
+  - pytz=2020.1=py_0
+  - setuptools=46.4.0=py38_0
+  - sqlite=3.31.1=h2a8f88b_1
+  - sqlparse=0.3.1=py_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_1
+  - wheel=0.34.2=py38_0
+  - wincertstore=0.2=py38_0
+  - zlib=1.2.11=h62dcd97_4
+  - pip:
+    - autopep8==1.4.3
+    - beautifulsoup4==4.8.2
+    - chardet==3.0.4
+    - django==2.2.12
+    - django-appconf==1.0.4
+    - django-cogwheels==0.3
+    - django-compressor==2.4
+    - django-debug-toolbar==2.2
+    - django-el-pagination==3.1.0
+    - django-environ==0.4.5
+    - django-extensions==2.2.9
+    - django-libsass==0.7
+    - django-modelcluster==5.0.1
+    - django-taggit==1.2.0
+    - django-treebeard==4.3.1
+    - django-widget-tweaks==1.4.2
+    - djangorestframework==3.11.0
+    - draftjs-exporter==2.1.7
+    - flake8==3.6.0
+    - html5lib==1.0.1
+    - idna==2.9
+    - isort==4.3.4
+    - l18n==2018.5
+    - libsass==0.20.0
+    - markdown==2.6.2
+    - mccabe==0.6.1
+    - pillow==7.1.2
+    - psycopg2==2.8.5
+    - pycodestyle==2.4.0
+    - pyflakes==2.0.0
+    - pygments==2.6.1
+    - rcssmin==1.0.6
+    - requests==2.23.0
+    - rjsmin==1.1.0
+    - six==1.14.0
+    - soupsieve==2.0.1
+    - unidecode==1.1.1
+    - urllib3==1.25.9
+    - wagtail==2.9
+    - wagtailcodeblock==1.17.1.0
+    - wagtailmenus==3.0
+    - webencodings==0.5.1
+    - whitenoise==5.1.0
+    - willow==1.3
+    - xlsxwriter==1.2.8
+prefix: C:\Users\kevin\anaconda3\envs\wagtail_blog_env
+
