@@ -52,37 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "wagtail_tuto/blog/templates/blog/base.html",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 3126,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config/settings/production.py",
-			"settings":
-			{
-				"buffer_size": 630,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "manage.py",
-			"settings":
-			{
-				"buffer_size": 467,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config/settings/base.py",
-			"settings":
-			{
-				"buffer_size": 4819,
+				"buffer_size": 88,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,22 +108,27 @@
 	},
 	"expanded_folders":
 	[
-		"/J/wagtail/development/wagtail_blog",
-		"/J/wagtail/development/wagtail_blog/config",
-		"/J/wagtail/development/wagtail_blog/config/settings"
+		"/J/wagtail/development/wagtail_blog"
 	],
 	"file_history":
 	[
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/components/sidebar.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/base.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/views.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/models.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/text_blocks.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/migrations/0001_initial.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/migrations/0001_initial.py",
 		"/J/wagtail/development/wagtail_blog/config/settings/dev.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/templates/home/home_page.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blog_page.html",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/post_page.html",
+		"/J/wagtail/development/wagtail_blog/manage.py",
+		"/J/wagtail/development/wagtail_blog/config/settings/production.py",
+		"/J/wagtail/development/wagtail_blog/README.md",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/components/sidebar.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/blocks.py",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/comments/disqus.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/models.py",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blog_page.html",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/base.html",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/text_blocks.html",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/migrations/0001_initial.py",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/post_page.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/form_page_landing.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/markdown.html",
 		"/J/wagtail/development/wagtail_blog/secrets.json",
@@ -261,121 +239,30 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wagtail_tuto/blog/templates/blog/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1848,
-								1848
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1564.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/settings/production.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								510,
-								576
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "manage.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 467,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								231,
-								231
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config/settings/base.py",
+					"file": ".gitignore",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4819,
+						"buffer_size": 88,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								20,
+								20
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -468,7 +355,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 293.0,
+	"side_bar_width": 334.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

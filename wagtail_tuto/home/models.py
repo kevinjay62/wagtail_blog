@@ -1,12 +1,13 @@
 from django.db import models
 
-from wagtail.admin.edit_handlers import (FieldPanel, MultiFieldPanel,
-                                         StreamFieldPanel)
+from wagtail.admin.edit_handlers import (
+    FieldPanel,
+    MultiFieldPanel,
+    StreamFieldPanel
+)
 from wagtail.contrib.settings.models import BaseSetting, register_setting
-from wagtail.core import blocks
 from wagtail.core.fields import RichTextField, StreamField
 from wagtail.core.models import Page
-from wagtail.images.blocks import ImageChooserBlock
 
 from home.blocks import RowBlock
 
