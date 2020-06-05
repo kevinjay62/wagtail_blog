@@ -7,3 +7,6 @@ fabfile.py
 .python-version
 static_root/
 secrets.json
+wagtail_blog.sublime-project
+wagtail_blog.sublime-workspace
+migrations/
