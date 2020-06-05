@@ -174,6 +174,7 @@ class LandingPage(Page):
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock(icon="image")),
         ('two_columns', TwoColumnBlock()),
+        ('code', ContentStreamBlock()),
         ('embedded_video', EmbedBlock(icon="media")),
     ], null=True, blank=True)
 

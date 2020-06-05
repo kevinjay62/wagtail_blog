@@ -52,11 +52,42 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "wagtail_tuto/blog/urls.py",
 			"settings":
 			{
-				"buffer_size": 88,
+				"buffer_size": 191,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "zsz# -*- coding: utf-8 -*-\nfrom __future__ import unicode_literals\n\nfrom django.shortcuts import render\n\n# Create your views here.\n",
+			"file": "wagtail_tuto/blog/views.py",
+			"file_size": 134,
+			"file_write_time": 132343950090080650,
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/urls.py",
+			"settings":
+			{
+				"buffer_size": 1838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "zszfrom django.conf import settings\nfrom django.conf.urls import url\nfrom django.contrib.auth import views as auth_views\n\nfrom wagtail.core import views\nfrom wagtail.core.utils import WAGTAIL_APPEND_SLASH\n\nif WAGTAIL_APPEND_SLASH:\n    # If WAGTAIL_APPEND_SLASH is True (the default value), we match a\n    # (possibly empty) list of path segments ending in slashes.\n    # CommonMiddleware will redirect requests without a trailing slash to\n    # a URL with a trailing slash\n    serve_pattern = r'^((?:[\\w\\-]+/)*)$'\nelse:\n    # If WAGTAIL_APPEND_SLASH is False, allow Wagtail to serve pages on URLs\n    # with and without trailing slashes\n    serve_pattern = r'^([\\w\\-/]*)$'\n\n\nWAGTAIL_FRONTEND_LOGIN_TEMPLATE = getattr(\n    settings, 'WAGTAIL_FRONTEND_LOGIN_TEMPLATE', 'wagtailcore/login.html'\n)\n\n\nurlpatterns = [\n    url(r'^_util/authenticate_with_password/(\\d+)/(\\d+)/$', views.authenticate_with_password,\n        name='wagtailcore_authenticate_with_password'),\n    url(r'^_util/login/$', auth_views.LoginView.as_view(template_name=WAGTAIL_FRONTEND_LOGIN_TEMPLATE),\n        name='wagtailcore_login'),\n\n    # Front-end page views are handled through Wagtail's core.views.serve\n    # mechanism\n    url(serve_pattern, views.serve, name='wagtail_serve')\n]\n",
+			"file": "/C/Users/kevin/anaconda3/envs/wagtail_blog_env/Lib/site-packages/wagtail/core/urls.py",
+			"file_size": 1249,
+			"file_write_time": 132343952968671119,
+			"settings":
+			{
+				"buffer_size": 1252,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -108,10 +139,26 @@
 	},
 	"expanded_folders":
 	[
-		"/J/wagtail/development/wagtail_blog"
+		"/J/wagtail/development/wagtail_blog",
+		"/J/wagtail/development/wagtail_blog/config",
+		"/J/wagtail/development/wagtail_blog/config/settings",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home",
+		"/C/Users/kevin/anaconda3/envs/wagtail_blog_env/Lib/site-packages/wagtail",
+		"/C/Users/kevin/anaconda3/envs/wagtail_blog_env/Lib/site-packages/wagtail/core"
 	],
 	"file_history":
 	[
+		"/J/wagtail/development/mastering_django/mastering_django/urls.py",
+		"/J/wagtail/development/mastering_django/home/models.py",
+		"/J/wagtail/development/mastering_django/mastering_django/settings/base.py",
+		"/J/wagtail/development/mastering_django/mastering_django/settings/dev.py",
+		"/J/wagtail/development/mastering_django/mastering_django/settings/production.py",
+		"/J/wagtail/development/mastering_django/secrets.json",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/models.py",
+		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/migrations/0002_auto_20200601_1526.py",
+		"/J/wagtail/development/wagtail_blog/config/docker_start.sh",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/base.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/views.py",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/home/models.py",
@@ -128,7 +175,6 @@
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/components/sidebar.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/blocks.py",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/comments/disqus.html",
-		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/models.py",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/form_page_landing.html",
 		"/J/wagtail/development/wagtail_blog/wagtail_tuto/blog/templates/blog/blocks/markdown.html",
 		"/J/wagtail/development/wagtail_blog/secrets.json",
@@ -205,7 +251,6 @@
 		"height": 179.0,
 		"where_history":
 		[
-			"<project>"
 		]
 	},
 	"find_state":
@@ -213,15 +258,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"disqus_url",
-			"page_url",
-			"|richtext",
-			"richtext",
-			"safe",
-			"markdown",
-			"markdown.html",
-			"markdown",
-			"strip"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -239,36 +275,127 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"file": "wagtail_tuto/blog/urls.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wagtail_tuto/blog/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/urls.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1111
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1020.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/kevin/anaconda3/envs/wagtail_blog_env/Lib/site-packages/wagtail/core/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -355,7 +482,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 334.0,
+	"side_bar_width": 374.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
