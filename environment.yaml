@@ -24,7 +24,7 @@ dependencies:
     - chardet==3.0.4
     - colorama==0.4.3
     - decorator==4.4.2
-    - django==2.2.13
+    - django==2.2.14
     - django-appconf==1.0.4
     - django-cogwheels==0.3
     - django-compressor==2.4
@@ -66,7 +66,7 @@ dependencies:
     - traitlets==4.3.3
     - unidecode==1.1.1
     - urllib3==1.25.9
-    - wagtail==2.9
+    - wagtail==2.9.3
     - wagtailcodeblock==1.17.1.0
     - wagtailmenus==3.0
     - wcwidth==0.2.2
