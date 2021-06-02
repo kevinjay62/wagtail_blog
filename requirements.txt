@@ -49,7 +49,7 @@ soupsieve==2.0.1
 sqlparse==0.3.1
 traitlets==4.3.3
 Unidecode==1.1.1
-urllib3==1.25.9
+urllib3==1.26.5
 wagtail==2.11.6
 wagtailcodeblock==1.17.1.0
 wagtailmenus==3.0
